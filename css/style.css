@@ -1,0 +1,31 @@
+body {
+  background-color: lavenderblush;
+}
+#Top {
+  text-align: center;
+  background-color: gray;
+  width: 600px;
+  color: aliceblue;
+}
+
+#survey-form {
+  background-color: rgb(117, 117, 184);
+  width: 500px;
+  color: black;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  width: 200px;
+}
+
+#submit {
+  width: 100px;
+}
+
+#dropdown {
+  width: 205px;
+  border: none;
+}
