@@ -14,12 +14,55 @@
     </section>
     <form id="survey-form">
       <label for="name" id="name-label">Name</label><br />
-      <input type="text" placeholder="Enter your name" />
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br />
       <label for="email" id="email-label">Email</label><br />
-      <input type="email" id="email" placeholder="Enter your email adress" required> <br/>
-      <label for="Age" id="number-label">Age</label>
-      <input type="number" placeholder="20" min="18" max="80"> <br>
-      
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email adress"
+        required
+      />
+      <br />
+      <label for="Age" id="number-label">Age</label><br />
+      <input type="number" id="number" placeholder="20" min="18" max="80" />
+      <br />
+      <section id="drop-down">
+        <label for="dropdown">What is your favorite feature of Microverse</label
+        ><br />
+        <select name="dropdown" id="dropdown">
+          <option value="challanges">Challanges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option></select
+        ><br />
+        <label for="radio">Would you recommend Microverse to your friend?</label
+        ><br />
+        <input type="radio" value="definately" name="radio" />
+        <label for="definately">Definately</label><br />
+        <input type="radio" value="maybe" name="radio" />
+        <label for="maybe">Maybe</label><br />
+        <input type="radio" value="not_sure" name="radio" />
+        <label for="not_sure">Not sure</label><br /><br />
+        <input type="checkbox" id="checkbox" value="first" />
+        <label for="check1">Check one</label><br />
+        <input type="checkbox" id="checkbox" value="second" />
+        <label for="check2">Check two</label><br />
+        <input type="checkbox" id="checkbox" value="third" />
+        <label for="check3">Check three</label><br />
+        <textarea
+          name="textarea"
+          id="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comments here..."
+        ></textarea
+        ><br />
+        <button id="submit">Suubmit</button>
+      </section>
     </form>
 
     <script src="js/index.js"></script>
